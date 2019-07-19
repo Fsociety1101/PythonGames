@@ -1,2 +1,2 @@
 # PythonGame
-I will be making a python game.
+I will be making some python games to learn python.
