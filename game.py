@@ -1,2 +1,4 @@
+import pgzrun
 def draw():
-	screen.draw.text("Hello", topleft=(10, 10))
+	screen.draw.text("Hello", topleft=(100, 100))
+pgzrun.go()
