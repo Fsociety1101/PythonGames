@@ -13,14 +13,11 @@ def place_apple():
 
 def on_mouse_down(pos):
 	if apple.collidepoint(pos):
-		draw2()
+		print("Nice!")
 		place_apple()
 	else:
-		draw3()
+		print("AHHH! You Missed")
 		quit()
-def draw2():
-	screen.draw.text("Nice!", center=(500,500))
-def draw3():
-	screen.draw.text("Nice!", center=(500,500))
+
 place_apple()
 pgzrun.go()
